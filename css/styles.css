@@ -14,14 +14,14 @@ body{
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #FFFFFF;
-    
-}
 
+}
 ul {
     list-style-type: none;
     font-style: normal;
     text-decoration: none;
 }
+
 .address {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
@@ -43,6 +43,13 @@ ul {
         font-style: normal;
         text-decoration: none;
 }
+.menu:hover,
+.menu:focus
+{
+    color: #404bbf
+}
+
+
 .head {
     font-weight: 700;
         font-size: 56px;
@@ -63,13 +70,17 @@ ul {
             background: #4d5ae5;
         cursor: pointer;
 }
+.button:hover, 
+.button:focus{
+    background-color: #404BBF;
+}
 .tittle{
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-        font-size: 20px;
+        font-family: "Roboto", sans-serif;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
+        font-weight: 500;
+        font-size: 20px;
 }
 .subtitle{
 font-weight: 700;
@@ -79,8 +90,16 @@ font-weight: 700;
     text-align: center;
     color: #2e2f42;
     font-family: "Roboto", sans-serif;
+    text-transform: capitalize;
 }
-.team-subtitle {
+.subject{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.caption {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -88,7 +107,8 @@ font-weight: 700;
     text-align: center;
     color: #2e2f42;
     font-family: "Roboto", sans-serif;
-    background: #f4f4fd;
+    background-color: #F4F4FD;
+    text-transform: capitalize;
 }
 .heading{
     font-weight: 500;
@@ -98,7 +118,7 @@ font-weight: 700;
         color: #2e2f42;
         font-family: "Roboto", sans-serif;
 }
-footer{
+.footer{
     background: #2e2f42;
     width: 1440px;
         height: 312px;
@@ -118,25 +138,35 @@ footer{
         letter-spacing: 0.02em;
         font-family: "Roboto", sans-serif;
 }
-.webstudio {
+.lists{
+    background-color: #FFFFFF
+}
+.accent{
+    color: #2e2f42;
+
+}
+.web {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2e2f42;
+    color: #4d5ae5;
     text-decoration: none;
 }
-.end-webstudio{
+.end-web{
     font-family: "Raleway", sans-serif;
     font-weight: 700;
         font-size: 18px;
-        line-height: 1.16667;
+        line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        color: #f4f4fd;
+        color: #4d5ae5;
         text-decoration: none;
+}
+.end-studio{
+color: #f4f4fd;
 }
 
 .title-button{
