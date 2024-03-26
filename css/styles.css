@@ -10,6 +10,12 @@
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+body{
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+    
+}
 
 ul {
     list-style-type: none;
@@ -73,8 +79,16 @@ font-weight: 700;
     text-align: center;
     color: #2e2f42;
     font-family: "Roboto", sans-serif;
-
-   
+}
+.team-subtitle {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+    font-family: "Roboto", sans-serif;
+    background: #f4f4fd;
 }
 .heading{
     font-weight: 500;
@@ -124,11 +138,7 @@ footer{
         color: #f4f4fd;
         text-decoration: none;
 }
-.worker{
-    width: 1440px;
-        height: 732px;
-        background: #f4f4fd;
-}
+
 .title-button{
     background: #2e2f42;
     width: 1440px;
