@@ -10,3 +10,127 @@
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+
+ul {
+    list-style-type: none;
+    font-style: normal;
+    text-decoration: none;
+}
+.address {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+        text-decoration: none;
+        list-style-type: none;
+        font-style: normal;
+}
+.menu{
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+        list-style-type: none;
+        font-style: normal;
+        text-decoration: none;
+}
+.head {
+    font-weight: 700;
+        font-size: 56px;
+        line-height: 1.07;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #fff;
+        font-family: "Roboto", sans-serif;
+        text-align: center;
+}
+.button{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: #fff;
+            background: #4d5ae5;
+        cursor: pointer;
+}
+.tittle{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+}
+.subtitle{
+font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+    font-family: "Roboto", sans-serif;
+
+   
+}
+.heading{
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+        font-family: "Roboto", sans-serif;
+}
+footer{
+    background: #2e2f42;
+    width: 1440px;
+        height: 312px;
+}
+.text{
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        font-family: "Roboto", sans-serif;
+}
+.end-text{
+    color: #f4f4fd;
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        font-family: "Roboto", sans-serif;
+}
+.webstudio {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2e2f42;
+    text-decoration: none;
+}
+.end-webstudio{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+        font-size: 18px;
+        line-height: 1.16667;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #f4f4fd;
+        text-decoration: none;
+}
+.worker{
+    width: 1440px;
+        height: 732px;
+        background: #f4f4fd;
+}
+.title-button{
+    background: #2e2f42;
+    width: 1440px;
+        height: 600px;
+}
