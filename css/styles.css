@@ -2,12 +2,11 @@ body{
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #FFFFFF;
-    margin:0 auto;
 }
 ul{
     list-style-type: none;
 }
-.menu.mail {
+.address .address-mail {
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
@@ -16,8 +15,8 @@ list-style-type: none;
 }
 
 
-.menu.mail:hover,
-.menu.mail.focus {
+.address .address-mail:hover,
+.address .address-mail:focus {
     color: #404bbf
 }
 
@@ -32,21 +31,17 @@ list-style-type: none;
         list-style-type: none;
         font-style: normal;
 } */
-.menu.col-1,
-.menu.col {
-    font-weight: 500;
+.list-col {
+        font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #2e2f42;
-        list-style-type:none;
-        font-style:normal;
-        text-decoration:none;
         font-family: "Roboto", sans-serif;
 }
 
-.col-1:focus,
-.col-1:hover {
+.list-col:focus,
+.list-col:hover {
     color: #404bbf;
 }
 
