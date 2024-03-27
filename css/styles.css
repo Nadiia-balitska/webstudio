@@ -6,11 +6,12 @@ body{
 
 }
 
-.col-1 {
+.col-1,
+.col {
     color: #2e2f42;
 }
 
-.mail {
+ul.mail {
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
@@ -18,8 +19,8 @@ color:#434455;
 }
 
 
-.mail:hover,
-.mail.focus {
+ul.mail:hover,
+ul.mail.focus {
     color: #404bbf
 }
 
@@ -31,7 +32,7 @@ color: #404bbf;
     font-style: normal;
 
  }
-.address {
+address {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
         font-size: 16px;
@@ -162,7 +163,7 @@ font-weight: 700;
 .accent{
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     color: #2e2f42;
 
@@ -178,7 +179,6 @@ font-weight: 700;
         text-transform: uppercase;
 }
 nav{
-    width: 1440px;
     margin: 0 auto;
 
 }
