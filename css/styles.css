@@ -1,4 +1,4 @@
-.visually-hidden {
+/* .visually-hidden {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -9,7 +9,7 @@
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
-}
+} */
 body{
     font-family: "Roboto", sans-serif;
     color: #434455;
@@ -17,6 +17,34 @@ body{
     margin:0 auto;
 
 }
+
+.col-1 {
+    color: #2e2f42;
+}
+.mail,
+.tel {
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color:#434455;
+}
+
+.mail:hover,
+.tel:hover,
+.mail.focus,
+.tel:focus
+{
+    color: #404bbf
+}
+
+.col-1:focus,
+.col-1:hover{
+color: #404bbf;
+}
+ .address{
+    font-style: normal;
+
+ }
 
 ul,
 .menu,
@@ -58,7 +86,7 @@ address {
     background: #2e2f42;
 }
 
-h1 {
+.h-1 {
     font-weight: 700;
         font-size: 56px;
         line-height: 1.07;
@@ -66,7 +94,6 @@ h1 {
         text-align: center;
         color: #fff;
         font-family: "Roboto", sans-serif;
-        text-align: center;
 }
 
 
@@ -77,15 +104,19 @@ h1 {
         line-height: 1.5;
         letter-spacing: 0.04em;
         color: #fff;
-        border-radius: 4px;
+        cursor: pointer;
+        /* border-radius: 4px;
         padding: 16px 32px;
         min-width: 169px;
-        min-height: 56px;
-        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-        background: #4d5ae5;
-
-    
+        min-height: 56px; */
+        /* box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15); */
+        background: #4d5ae5;   
 }
+
+.section-3 {
+    background-color: #F4F4FD
+}
+
 .button:hover, 
 .button:focus{
     background-color: #404BBF;
@@ -162,7 +193,6 @@ font-weight: 700;
     font-size: 18px;
     line-height: 1.16667;
     letter-spacing: 0.03em;
-    text-transform: uppercase;
     color: #2e2f42;
 }
 .web {
@@ -173,7 +203,6 @@ font-weight: 700;
         font-size: 18px;
         line-height: 1.17;
         letter-spacing: 0.03em;
-        text-transform: uppercase;
 }
 nav{
     width: 1440px;
@@ -186,7 +215,6 @@ nav{
         font-size: 18px;
         line-height: 1.17;
         letter-spacing: 0.03em;
-        text-transform: uppercase;
         color: #4d5ae5;
         text-decoration: none;
 }
