@@ -15,7 +15,6 @@ body{
     color: #434455;
     background-color: #FFFFFF;
     margin:0 auto;
-    width: 1470;
 
 }
 
@@ -196,14 +195,14 @@ color: #f4f4fd;
 }
 
 
-.menu {
+/* .menu {
     display: inline
     align-items: flex-start;
     justify-content: flex-start;
     flex-direction: row;
     gap: 40px;
     text-decoration: none;
-}
+} */
 /* .mail {
     font-weight: 400;
     font-size: 16px;
