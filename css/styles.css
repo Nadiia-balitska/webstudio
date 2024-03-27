@@ -6,12 +6,8 @@ body{
 
 }
 
-.col-1,
-.col {
-    color: #2e2f42;
-}
 
-ul.mail {
+.menu.mail {
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
@@ -19,19 +15,11 @@ color:#434455;
 }
 
 
-ul.mail:hover,
-ul.mail.focus {
+.menu.mail:hover,
+.menu.mail.focus {
     color: #404bbf
 }
 
-.col-1:focus,
-.col-1:hover{
-color: #404bbf;
-}
- .address{
-    font-style: normal;
-
- }
 address {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
@@ -43,7 +31,8 @@ address {
         list-style-type: none;
         font-style: normal;
 }
-.menu{
+.menu.col-1,
+.menu.col {
     font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
@@ -54,17 +43,18 @@ address {
         text-decoration:none;
         font-family: "Roboto", sans-serif;
 }
-.menu:hover,
-.menu:focus
-{
-    color: #404bbf
+
+.col-1:focus,
+.col-1:hover {
+    color: #404bbf;
 }
+
 .title-button {
     background: #2e2f42;
 
 }
 
-.head-1 {
+.head {
     font-weight: 700;
         font-size: 56px;
         line-height: 1.07;
