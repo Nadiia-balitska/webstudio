@@ -2,20 +2,41 @@ body{
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #FFFFFF;
-}
-main{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 0 273px;
+    width: 1440px;
 
+}
+h1,
+h2,
+h3{
+    margin: 0;
+}
+
+.container{
+
+}
+
+ul{
+    margin: 0;
+    padding-left: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+main{
+flex-grow: 1;
 }
 
 footer{
 
 }
 .header{
-
 }
 
 .header-nav{
-
 }
 
 .accent {
@@ -39,7 +60,8 @@ footer{
 }
 
 .menu {
-
+margin: 0;
+padding-left: 0;
 }
 
 .menu-link {
@@ -58,6 +80,10 @@ footer{
 
 address{
     font-style: normal;
+}
+.address{
+    margin: 0;
+    padding-left: 0;
 }
 
 .address .address-mail {
@@ -171,6 +197,7 @@ font-weight: 700;
         line-height: 1.5;
         letter-spacing: 0.02em;
         font-family: "Roboto", sans-serif;
+        margin: 0;
 }
 
 .footer {
