@@ -1,3 +1,8 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
 body{
     font-family: "Roboto", sans-serif;
     color: #434455;
@@ -14,10 +19,18 @@ h2,
 h3{
     margin: 0;
 }
-
-.container{
-
+.container {
+max-width: 1440px;
+padding: 0 24px;
+margin: 0 auto;
 }
+       
+.header .container {
+display:flex;
+align-items: center;
+flex-shrink: 0;
+}
+
 
 ul{
     margin: 0;
@@ -34,9 +47,13 @@ footer{
 
 }
 .header{
+    display: flex;
 }
 
 .header-nav{
+display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
 }
 
 .accent {
@@ -57,11 +74,20 @@ footer{
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-right: 76px;
+    display: flex;
+
+    align-items: center;
+    justify-content: flex-start;
+
 }
 
 .menu {
-margin: 0;
-padding-left: 0;
+ display: flex;
+ align-items: center;
+gap: 40px;
+}
+.menu-iteam{
 }
 
 .menu-link {
@@ -71,6 +97,10 @@ padding-left: 0;
     letter-spacing: 0.02em;
     color: #2e2f42;
     font-family: "Roboto", sans-serif;
+    display: block;
+    padding: 24px 0;
+
+
 }
 
 .menu-link:focus,
@@ -78,15 +108,17 @@ padding-left: 0;
     color: #404bbf;
 }
 
-address{
-    font-style: normal;
+
+.address-list{
+    display: flex;
+    gap: 40px;
 }
-.address{
-    margin: 0;
-    padding-left: 0;
+.addres-iteam {
+     
 }
 
-.address .address-mail {
+
+.address-mail {
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
@@ -95,13 +127,16 @@ list-style-type: none;
 font-style: normal;
 }
 
-.address .address-mail:hover,
-.address .address-mail:focus {
+.address-mail:hover,
+.address-mail:focus {
     color: #404bbf
 }
 
 .solution{
     background: #2e2f42;
+}
+.solution.container{
+    max
 }
 
 .solution-title {
@@ -176,7 +211,7 @@ font-style: normal;
 .portfolio-title{
 font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
@@ -197,7 +232,7 @@ font-weight: 700;
         line-height: 1.5;
         letter-spacing: 0.02em;
         font-family: "Roboto", sans-serif;
-        margin: 0;
+        margin: 0 auto;
 }
 
 .footer {
