@@ -29,20 +29,22 @@
     <header class="header">
       <div class="container">
         <nav class="header-nav">
-          <a class="web" href="./index.html"
-            >Web<span class="accent">Studio</span></a
-          >
-          <ul class="menu">
-            <li class="menu-iteam">
-              <a class="menu-link" href="./index.html">Studio</a>
-            </li>
-            <li class="menu-iteam">
-              <a class="menu-link" href="">Portfolio</a>
-            </li>
-            <li class="menu-iteam">
-              <a class="menu-link" href="">Contacts</a>
-            </li>
-          </ul>
+          <div class="web-menu-wraper">
+            <a class="web" href="./index.html"
+              >Web<span class="accent">Studio</span></a
+            >
+            <ul class="menu">
+              <li class="menu-iteam">
+                <a class="menu-link" href="./index.html">Studio</a>
+              </li>
+              <li class="menu-iteam">
+                <a class="menu-link" href="">Portfolio</a>
+              </li>
+              <li class="menu-iteam">
+                <a class="menu-link" href="">Contacts</a>
+              </li>
+            </ul>
+          </div>
         </nav>
         <ul class="address-list">
           <li class="address-iteam">
@@ -66,37 +68,39 @@
             Effective Solutions <br />
             for Your Business
           </h1>
-          <button class="solution-btn" type="button">Order Service</button>
+          <div class="solution-btn-wraper">
+            <button class="solution-btn" type="button">Order Service</button>
+          </div>
         </div>
       </section>
       <section class="benefits">
         <div class="container">
-          <h2 hidden>Chocolate benefits</h2>
-          <ul>
-            <li>
+          <h2 class="visually-hidden">Chocolate benefits</h2>
+          <ul class="benefits-list">
+            <li class="benefits-iteams">
               <h3 class="benefits-title">Strategy</h3>
-              <p class="text">
+              <p class="benefits-desc">
                 Our goal is to identify the business problem to walk away with
                 the perfect and creative solution.
               </p>
             </li>
-            <li>
+            <li class="benefits-iteams">
               <h3 class="benefits-title">Punctuality</h3>
-              <p class="text">
+              <p class="benefits-desc">
                 Bring the key message to the brand's audience for the best price
                 within the shortest possible time.
               </p>
             </li>
-            <li>
+            <li class="benefits-iteams">
               <h3 class="benefits-title">Diligence</h3>
-              <p class="text">
+              <p class="benefits-desc">
                 Research and confirm brands that present the strongest digital
                 growth opportunities and minimize risk.
               </p>
             </li>
-            <li>
+            <li class="benefits-iteams">
               <h3 class="benefits-title">Technologies</h3>
-              <p class="text">
+              <p class="benefits-desc">
                 Design practice focused on digital experiences. We bring forth a
                 deep passion for problem-solving.
               </p>
@@ -107,9 +111,10 @@
       <section class="team">
         <div class="container">
           <h2 class="team-title">Our Team</h2>
-          <ul>
-            <li class="lists">
+          <ul class="team-list">
+            <li class="team-iteam">
               <img
+                class="team-ill"
                 src="./images/img-3.jpg"
                 width="264"
                 height="264"
@@ -118,8 +123,9 @@
               <h3 class="team-lists-headind">Mark Guerrero</h3>
               <p class="text">Product Designer</p>
             </li>
-            <li class="lists">
+            <li class="team-iteam">
               <img
+                class="team-ill"
                 src="./images/img-2.jpg"
                 width="264"
                 height="264"
@@ -128,8 +134,9 @@
               <h3 class="team-lists-headind">Tom Ford</h3>
               <p class="text">Frontend Developer</p>
             </li>
-            <li class="lists">
+            <li class="team-iteam">
               <img
+                class="team-ill"
                 src="./images/img-1.jpg"
                 width="264"
                 height="264"
@@ -138,8 +145,9 @@
               <h3 class="team-lists-headind">Camila Garcia</h3>
               <p class="text">Marketing</p>
             </li>
-            <li class="lists">
+            <li class="team-iteam">
               <img
+                class="team-ill"
                 src="./images/img.jpg"
                 width="264"
                 height="264"
@@ -154,9 +162,10 @@
       <section class="portfolio">
         <div class="container">
           <h2 class="portfolio-title">Our Portfolio</h2>
-          <ul>
-            <li>
+          <ul class="portfolio-list">
+            <li class="portfolio-item">
               <img
+                class="portfolio-ill"
                 src="./images/img1.jpg"
                 width="360"
                 height="300"
@@ -165,8 +174,9 @@
               <h3 class="portfolio-list-heading">Banking App</h3>
               <p class="text">App</p>
             </li>
-            <li>
+            <li class="portfolio-item">
               <img
+                class="portfolio-ill"
                 src="./images/img2.jpg"
                 width="360"
                 height="300"
@@ -175,8 +185,9 @@
               <h3 class="portfolio-list-heading">Cashless Payment</h3>
               <p class="text">Marketing</p>
             </li>
-            <li>
+            <li class="portfolio-item">
               <img
+                class="portfolio-ill"
                 src="./images/img3.jpg"
                 width="360"
                 height="300"
@@ -185,8 +196,9 @@
               <h3 class="portfolio-list-heading">Meditation App</h3>
               <p class="text">App</p>
             </li>
-            <li>
+            <li class="portfolio-item">
               <img
+                class="portfolio-ill"
                 src="./images/img4.jpg"
                 width="360"
                 height="300"
@@ -195,8 +207,9 @@
               <h3 class="portfolio-list-heading">Taxi Service</h3>
               <p class="text">Marketing</p>
             </li>
-            <li>
+            <li class="portfolio-item">
               <img
+                class="portfolio-ill"
                 src="./images/img5.jpg"
                 width="360"
                 height="300"
@@ -205,8 +218,9 @@
               <h3 class="portfolio-list-heading">Screen Illustrations</h3>
               <p class="text">Design</p>
             </li>
-            <li>
+            <li class="portfolio-item">
               <img
+                class="portfolio-ill"
                 src="./images/img6.jpg"
                 width="360"
                 height="300"
