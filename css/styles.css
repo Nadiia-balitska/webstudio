@@ -79,9 +79,6 @@ ul {
 }
 
 
-footer{
-
-}
 .header{
     border-bottom: 1px solid #e7e9fc;
     
@@ -93,10 +90,7 @@ footer{
     flex-grow: 1;
     align-items: center;
 }
-.web-menu-wraper{
-    display: flex;
-    gap: 76px;
-}
+
 
 .accent {
     font-weight: 700;
@@ -180,7 +174,7 @@ align-items: center;
 
 .solution{
     background: #2e2f42;
-    padding: 188px 0
+    padding: 188px 0;
 }
 
 
@@ -198,11 +192,8 @@ align-items: center;
         padding-top: 188px;
         max-width: 496px;
 }
-.solution-btn-wraper {
-    display: flex;
-    justify-content: center;
-}
-.solution .solution-btn{
+
+.solution-btn{
     font-family: "Roboto", sans-serif;
     font-weight: 500;
         font-size: 16px;
@@ -267,7 +258,7 @@ width: 264px;
 
 .team-list {
     display: flex;
-     flex-wrap: wrap;
+    flex-wrap: wrap;
     gap:24px;
 }
 .team-iteam{
