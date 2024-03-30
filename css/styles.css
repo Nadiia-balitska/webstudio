@@ -36,6 +36,12 @@ img {
 a {
     color: currentColor;
     text-decoration: none;}
+    
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
 
 h1,
 h2,
@@ -70,12 +76,6 @@ gap: 332px;
             text-align: center;
             color: #2e2f42;
             font-family: "Roboto", sans-serif;
-}
-
-ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
 }
 
 
@@ -143,7 +143,7 @@ ul {
 }
 
 
-.address-list{
+address .address-list{
     display: flex;
     gap: 40px;
 }
