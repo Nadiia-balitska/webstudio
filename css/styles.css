@@ -422,19 +422,20 @@ row-gap: 48px;
             align-items: center;
             width: 100%;
             height: 100%;
+            
             padding: 32px;
         font-weight: 400;
             font-size: 16px;
             line-height: 1.5;
             letter-spacing: 0.02em;
             color: #f4f4fd;
-            background: linear-gradient(165deg,  #4d5ae5 3.97%,
-            #4d5ae5 109.#4d5ae5 76%);
-            backdrop-filter: blur(7.5px);
+            transition: 250ms ease-in;
+                transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
             
 }
 .portfolio-item:hover .overlay {
     transform: translateY(0);
+    background-color: #4d5ae5;
 }
 
 
@@ -460,6 +461,7 @@ row-gap: 48px;
 .footer {
     background: #2e2f42;
     padding: 100px 0;
+    position: relative;
 }
 
 .footer-web{
@@ -491,5 +493,23 @@ text-transform: uppercase;
     padding-bottom: 100px;
     padding-top: 16px;
 }
-.footer .container{
+.footer-wrapper {
+    margin-left: auto;
+}
+.footer-caption{
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #fff;
+}
+.footer-wrapper{
+   position: absolute;
+   left: 540px;
+   top: 100px;
+   right: 692px;
+bottom: 132px;
+}
+.footer-caption{
+    padding-bottom: 16px;
 }
