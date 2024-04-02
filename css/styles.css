@@ -384,8 +384,8 @@ background-color: #4d5ae5;
 
 
 
-.socials-link:hover .socials-icon,
-.socials-link:focus .socials-icon {
+.socials-link:hover .socials-icon-team,
+.socials-link:focus .socials-icon-team {
     fill: #4d5ae5;
 }
 .socials-link {
