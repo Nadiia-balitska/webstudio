@@ -368,7 +368,7 @@ object-fit: cover;
     border-radius: 50%;
     padding: 32px 0;
 }
-.team-list.socials-link {
+.socials-item.socials-link {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -382,8 +382,8 @@ background-color: #4d5ae5;
 
 }
 
-.team-list.socials-link:hover,
-.team-list.socials-link:focus {
+.socials-item.socials-link:hover,
+.socials-item.socials-link:focus {
     background-color: #404bbf;
 }
 
