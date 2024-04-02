@@ -483,11 +483,10 @@ row-gap: 48px;
 .footer.container{
     display: flex;
     align-items: baseline;
+    margin-right: 120px;
 
 }
-.web-p-wrapper{
-    margin-right: 120px;
-}
+
 
 .footer-web{
     font-family: "Raleway", sans-serif;
@@ -548,10 +547,7 @@ margin-left: auto;
    right: 692px;
 bottom: 132px;
 }
-.web-p-wrapper{
-    margin-right: 120px;
 
-}
 .footer-caption{
     padding-bottom: 16px;
     font-weight: 500;
