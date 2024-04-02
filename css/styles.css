@@ -382,10 +382,6 @@ background-color: #4d5ae5;
 
 }
 
-.socials-item.socials-link:hover,
-.socials-item.socials-link:focus {
-    background-color: #404bbf;
-}
 
 
 .socials-link:hover .socials-icon,
@@ -393,6 +389,10 @@ background-color: #4d5ae5;
     fill: #4d5ae5;
 }
 
+.socials-link:hover,
+.socials-link:focus {
+    background-color: #404bbf;
+}
 .social-team-wraper{
     display: flex;
         align-items: center;
