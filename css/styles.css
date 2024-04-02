@@ -584,7 +584,7 @@ width: 40px;
     transition: 250ms ease-in;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.socials-link:hover,
-.socials-link:focus {
+.socials-link-footer:hover,
+.socials-link-footer:focus {
     background-color: #31d0aa;
 }
