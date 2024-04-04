@@ -596,5 +596,97 @@
         </div>
       </div>
     </footer>
+    <!-- #region modal -->
+    <div class="backdrop is-open">
+      <div class="modal">
+        <button class="modal-btn" type="button">
+          <svg class="modal-btn-icon" width="24" height="24">
+            <use href="./images/icons.svg#x-close"></use>
+          </svg>
+        </button>
+        <p class="modal-caption">
+          Leave your contacts and we will call you back
+        </p>
+        <form class="modal-form" name="contacts_form" autocomplete="off">
+          <div class="modal-wrapper">
+            <label class="modal-label" for="user_name">Name</label>
+            <div class="modal-field">
+              <input
+                class="modal-field-input"
+                type="text"
+                id="user_name"
+                name="user_name"
+                placeholder="&nbsp;"
+                required
+                minlength="2"
+                pattern="[a-zA-Z]+\s[a-zA-Z]+"
+                title="Phrase should include 2 words separated by coma"
+              />
+              <svg class="modal-field-icon" width="12" height="12">
+                <use href="./images/icons.svg#user"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="modal-wrapper">
+            <label class="modal-label" for="user_phone">Phone</label>
+            <div class="modal-field">
+              <input
+                class="modal-field-input"
+                type="tel"
+                id="user_tel"
+                name="user_tel"
+                required
+              />
+              <svg class="modal-field-icon" width="13" height="13">
+                <use href="./images/icons.svg#phone"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="modal-wrapper">
+            <label class="modal-label" for="user_email">Email</label>
+            <div class="modal-field">
+              <input
+                class="modal-field-input"
+                type="email"
+                id="user_email"
+                name="user_phone"
+              />
+              <svg class="modal-field-icon" width="15" height="12">
+                <use href="./images/icons.svg#email"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="modal-wrapper">
+            <label class="modal-label" for="user_message">Comment</label>
+            <textarea
+              class="modal-message"
+              name="user_message"
+              id="user_message"
+              rows="4"
+              placeholder="Text input"
+              required
+              minlength="10"
+              maxlength="1000"
+            ></textarea>
+          </div>
+
+          <label class="agreement">
+            <input class="visually-hidden" type="checkbox" value="true" />
+            <span class="agreement-checkbox">
+              <svg class="agreement-checkbox-icon" width="10" height="10">
+                <use href="./images/icons.svg#check-mark"></use>
+              </svg>
+            </span>
+            I accept the terms and conditions of the
+            <a class="agreement-checkbox-link" href="#" target="_blank">
+              Privacy Policy
+            </a>
+          </label>
+
+          <button class="btn btn-accent" type="submit">Send</button>
+        </form>
+      </div>
+    </div>
+    <!-- #endregion modal -->
   </body>
 </html>
