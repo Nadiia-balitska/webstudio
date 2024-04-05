@@ -727,7 +727,7 @@ font-family: "Roboto", sans-serif;
 .modal-btn:focus {
 background-color: #404bbf;
 border: none;
-fill: #ffffff
+fill: #ffffff;
 }
 
 .modal-btn-icon {
@@ -755,7 +755,7 @@ fill: #ffffff;
 }
 
 .modal-wrapper {
-    margin-bottom: 8px;
+margin-bottom: 16px;
 }
 
 .modal-label {
@@ -845,7 +845,7 @@ fill: #ffffff;
 
 
 .agreement-checkbox {
-display: inline-flex;
+       display: inline-flex;
         align-items: center;
         justify-content: center;
         width: 16px;
