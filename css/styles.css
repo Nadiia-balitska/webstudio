@@ -681,7 +681,7 @@ address .address-list {
 .modal-btn:hover,
 .modal-btn:focus {
   border: none;
-  fill: #ffffff;
+  color: #ffffff;
   background-color: #404bbf;
 }
 
