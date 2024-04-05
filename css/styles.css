@@ -815,20 +815,12 @@ input[type="checkbox"]:checked + .agreement .agreement-checkbox {
   fill: #f4f4fd;
 }
 
-input[type="checkbox"]:focus-visible + .agreement-checkbox {
+/* input[type="checkbox"]:focus-visible + .agreement-checkbox {
   box-shadow: 0 0 0 4px rgba(46, 47, 66, 0.4);
-}
+} */
 
 .agreement-checkbox-icon {
   fill: #fff;
-  transition: 300ms ease-in;
-  transition-property: opacity;
-}
-
-input[type="checkbox"]:checked
-  + .agreement-checkbox
-  > .agreement-checkbox-icon {
-  opacity: 1;
 }
 
 .agreement-checkbox-link {
