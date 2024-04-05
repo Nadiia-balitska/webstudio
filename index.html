@@ -604,14 +604,14 @@
                 placeholder="E-mail"
                 type="email"
               />
+            </label>
+            <button class="btn-subscribe" type="submit">
+              Subscribe
+              <svg class="subscribe-btn-icon" width="24" height="24">
+                <use href="./images/icons.svg#subscribe"></use>
+              </svg>
             </button>
-          </label>
-          <button class="btn-subscribe" type="submit">
-            Subscribe
-            <svg class="subscribe-btn-icon" width="24" height="24">
-              <use href="./images/icons.svg#subscribe"></use>
-            </svg>
-        </form>
+          </form>
         </div>
       </div>
     </footer>
@@ -633,8 +633,8 @@
               <input
                 class="modal-field-input"
                 type="text"
-                id="user_name"
-                name="user_name"
+                id="user-name"
+                name="user-name"
                 placeholder="&nbsp;"
                 required
                 minlength="2"
@@ -661,7 +661,7 @@
             </div>
           </div>
           <div class="modal-wrapper">
-             <label class="modal-label" for="user_email">Email</label>
+            <label class="modal-label" for="user_email">Email</label>
             <div class="modal-field">
               <input
                 class="modal-field-input"
@@ -690,10 +690,16 @@
           </div>
 
           <div class="checkbox-wrapper">
-              <input class="visually-hidden" type="checkbox" name="user-privacy" value="true" id="user-privacy"  />
-              <label class="agreement" for="user-privacy">
+            <input
+              class="visually-hidden"
+              type="checkbox"
+              name="user-privacy"
+              value="true"
+              id="user-privacy"
+            />
+            <label class="agreement" for="user-privacy">
               <span class="agreement-checkbox">
-                <svg class="agreement-checkbox-icon" width="10" height="10">
+                <svg class="agreement-checkbox-icon" width="10" height="8">
                   <use href="./images/icons.svg#check-mark"></use>
                 </svg>
               </span>
@@ -701,7 +707,7 @@
               <a class="agreement-checkbox-link" href="#" target="_blank">
                 Privacy Policy
               </a>
-           </label>
+            </label>
           </div>
 
           <button class="btn btn-accent" type="submit">Send</button>
