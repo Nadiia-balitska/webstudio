@@ -782,7 +782,7 @@ address .address-list {
 }
 
 .agreement {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   margin-bottom: 24px;
   color: #8e8f99;
