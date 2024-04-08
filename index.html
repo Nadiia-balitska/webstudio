@@ -43,6 +43,11 @@
               <a class="menu-link" href="">Contacts</a>
             </li>
           </ul>
+          <button class="menu-btn" type="button">
+            <svg class="menu-btn-icon" width="24" height="24">
+              <use href="./images/icons.svg#burder-menu"></use>
+            </svg>
+          </button>
         </nav>
         <address>
           <ul class="address-list">
@@ -130,6 +135,8 @@
             <li class="team-iteam">
               <img
                 class="team-ill"
+                srcset="./images/img-3.jpg 1x, ./images/team/team2@2x 2x"
+                loading="lazy"
                 src="./images/img-3.jpg"
                 width="264"
                 height="264"
@@ -197,6 +204,8 @@
             <li class="team-iteam">
               <img
                 class="team-ill"
+                srcset="./images/img-2.jpg 1x, ./images/team/team2@2x 2x"
+                loading="lazy"
                 src="./images/img-2.jpg"
                 width="264"
                 height="264"
@@ -264,6 +273,8 @@
             <li class="team-iteam">
               <img
                 class="team-ill"
+                srcset="./images/img-1.jpg 1x, ./images/team/team3@2x 2x"
+                loading="lazy"
                 src="./images/img-1.jpg"
                 width="264"
                 height="264"
@@ -331,6 +342,8 @@
             <li class="team-iteam">
               <img
                 class="team-ill"
+                srcset="./images/img.jpg 1x, ./images/team/team4@2x 2x"
+                loading="lazy"
                 src="./images/img.jpg"
                 width="264"
                 height="264"
@@ -406,6 +419,11 @@
               <div class="wrapper-overlay">
                 <img
                   class="portfolio-ill"
+                  srcset="
+                    ./images/img1.jpg                 1x,
+                    ./images/portfolio/portfolio-1@2x 2x
+                  "
+                  loading="lazy"
                   src="./images/img1.jpg"
                   width="360"
                   height="300"
@@ -426,6 +444,11 @@
               <div class="wrapper-overlay">
                 <img
                   class="portfolio-ill"
+                  srcset="
+                    ./images/img6.jpg                 1x,
+                    ./images/portfolio/portfolio-2@2x 2x
+                  "
+                  loading="lazy"
                   src="./images/img6.jpg"
                   width="360"
                   height="300"
@@ -446,6 +469,11 @@
               <div class="wrapper-overlay">
                 <img
                   class="portfolio-ill"
+                  srcset="
+                    ./images/img2.jpg                 1x,
+                    ./images/portfolio/portfolio-3@2x 2x
+                  "
+                  loading="lazy"
                   src="./images/img2.jpg"
                   width="360"
                   height="300"
@@ -466,6 +494,11 @@
               <div class="wrapper-overlay">
                 <img
                   class="portfolio-ill"
+                  srcset="
+                    ./images/img3.jpg                 1x,
+                    ./images/portfolio/portfolio-4@2x 2x
+                  "
+                  loading="lazy"
                   src="./images/img3.jpg"
                   width="360"
                   height="300"
@@ -486,6 +519,11 @@
               <div class="wrapper-overlay">
                 <img
                   class="portfolio-ill"
+                  srcset="
+                    ./images/img4.jpg                 1x,
+                    ./images/portfolio/portfolio-5@2x 2x
+                  "
+                  loading="lazy"
                   src="./images/img4.jpg"
                   width="360"
                   height="300"
@@ -506,6 +544,11 @@
               <div class="wrapper-overlay">
                 <img
                   class="portfolio-ill"
+                  srcset="
+                    ./images/img5.jpg                 1x,
+                    ./images/portfolio/portfolio-6@2x 2x
+                  "
+                  loading="lazy"
                   src="./images/img5.jpg"
                   width="360"
                   height="300"
@@ -616,7 +659,7 @@
       </div>
     </footer>
     <!-- #region modal -->
-    <div class="backdrop is-open">
+    <div class="backdrop">
       <div class="modal">
         <button class="modal-btn" type="button">
           <svg class="modal-btn-icon" width="8" height="8">
@@ -715,5 +758,48 @@
       </div>
     </div>
     <!-- #endregion modal -->
+    <!-- #region Mobile menu-->
+    <div class="mobile-menu">
+      <div class="mobile-menu-wrapper">
+        <button
+          class="mobile-menu-btn"
+          type="button"
+          aria-label="Close menu button"
+        >
+          <svg class="mobile-menu-icon" width="24" height="24">
+            <use href="./images/icons.svg#close"></use>
+          </svg>
+        </button>
+
+        <ul class="mobile-menu">
+          <li class="mobile-menu-item">
+            <a class="mobile-menu-link active" href="./index.html">Studio</a>
+          </li>
+          <li class="mobile-menu-item">
+            <a class="mobile-menu-link" href="">Portfolio</a>
+          </li>
+          <li class="mobile-menu-item">
+            <a class="mobile-menu-link" href="">Contacts</a>
+          </li>
+        </ul>
+
+        <address>
+          <ul class="mobile-address-list">
+            <li class="mobile-address-iteam">
+              <a class="mobile-address-mail" href="mailto:info@devstudio.com"
+                >info@devstudio.com
+              </a>
+              <br />
+            </li>
+            <li class="mobile-address-iteam">
+              <a class="mobile-address-mail" href="tel:+110001111111"
+                >+11 (000) 111-11-11
+              </a>
+            </li>
+          </ul>
+        </address>
+      </div>
+    </div>
+    <!-- #endregion Mobile menu -->
   </body>
 </html>
